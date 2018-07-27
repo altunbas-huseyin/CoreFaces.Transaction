@@ -8,16 +8,16 @@ namespace CoreFaces.Transaction.UnitTest
         [TestMethod]
         public void DropTables()
         {
-            bool result = transactionSchemaService.DropTables();
-            Assert.AreEqual(result, true);
+            //bool result = transactionSchemaService.DropTables();
+            //Assert.AreEqual(result, true);
         }
 
 
         [TestMethod]
         public void EnsureCreated()
         {
-            bool result = transactionSchemaService.EnsureCreated();
-            Assert.AreEqual(result, true);
+            //bool result = transactionSchemaService.EnsureCreated();
+            //Assert.AreEqual(result, true);
         }
     }
 }
