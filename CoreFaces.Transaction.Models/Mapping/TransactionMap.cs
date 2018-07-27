@@ -11,6 +11,8 @@ namespace CoreFaces.Transaction.Models.Mapping
         {
             entityBuilder.HasKey(t => t.Id);
             entityBuilder.Property(t => t.UserId).IsRequired();
+            entityBuilder.Property(t => t.TableName).IsRequired();
+            entityBuilder.Property(t => t.TableRef).IsRequired();
             entityBuilder.Property(t => t.AreaId);
             entityBuilder.Property(t => t.OrderId).IsRequired();
             entityBuilder.Property(t => t.Currency).IsRequired();
